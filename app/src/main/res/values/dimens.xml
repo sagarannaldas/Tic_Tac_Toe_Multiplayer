@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="width_menu_button">220dp</dimen>
+    <dimen name="height_menu_button">50dp</dimen>
+    <dimen name="textsize_menu_button">18sp</dimen>
+
+    <dimen name="size_player_sign_image">100dp</dimen>
+    <dimen name="size_game_board">500dp</dimen>
+
+</resources>

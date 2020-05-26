@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/onlinebackgound1"
+    android:orientation="vertical"
+    tools:context=".OnlineLoginActivity">
+
+    <TextView
+        android:id="@+id/tvLoginUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="ID"
+        android:textColor="@android:color/background_light"
+        android:textColorHighlight="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorAccent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvSendRequest"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="  Send request to..."
+                android:textColor="?android:attr/colorBackground"
+                android:textSize="14sp" />
+
+            <ListView
+                android:id="@+id/lvLoginUsers"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:background="#000000" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorAccent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvAcceptRequest"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="  Accept Request from"
+                android:textColor="?android:attr/colorBackground"
+                android:textSize="14sp" />
+
+            <ListView
+                android:id="@+id/lvRequestUsers"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:background="#000000" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
